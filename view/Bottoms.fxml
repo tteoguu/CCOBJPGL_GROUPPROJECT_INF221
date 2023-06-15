@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="605.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="615.0" layoutX="-8.0" layoutY="567.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Gradient.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="130.0" layoutX="20.0" layoutY="626.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Design2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="104.0" layoutX="501.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Into%20the%2090s3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="104.0" layoutX="502.0" layoutY="333.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Into%20the%2090s2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="258.0" fitWidth="214.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Into%20the%2090s.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="151.0" layoutX="230.0" layoutY="33.0">
+         <image>
+            <Image url="@../../../Images/Logo-Black.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="385.0" layoutY="24.0" text="©">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="667.0" text="Invalid, try again!" visible="false">
+         <font>
+            <Font name="Arial" size="9.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2ff0e" height="25.0" layoutX="-7.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="615.0" />
+      <Line endX="504.00006103515625" layoutX="103.0" layoutY="83.0" startX="-100.0" />
+      <Button layoutX="14.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Tops">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="73.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Bottoms">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="145.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Dresses">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="405.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Outer">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="461.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="My Bag">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="526.0" layoutY="39.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Donation">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="232.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FREE SHIPPING IN THE PH OVER ₱600">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Text>
+      <Button layoutX="371.0" layoutY="413.0" mnemonicParsing="false" style="-fx-background-color: #c2ff0e; -fx-border-color: #000000;" text="ADD TO BAG">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="479.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOSET ESSENTIAL">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Text>
+      <Line endX="504.00006103515625" layoutX="100.0" layoutY="200.0" startX="-100.0" />
+      <Line endX="271.0" endY="-22.0" layoutX="-57.0" layoutY="481.0" startX="270.0000305175781" startY="-281.5" />
+      <Circle fill="#ffa3d3" layoutX="58.0" layoutY="141.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffa3d400" layoutX="130.0" layoutY="141.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="9.0" layoutX="-9.0" layoutY="456.0" stroke="BLACK" strokeType="INSIDE" width="615.0" />
+      <ImageView fitHeight="58.0" fitWidth="355.0" layoutX="225.0" layoutY="117.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text.png" />
+         </image>
+      </ImageView>
+      <Line endX="271.0" endY="-22.0" layoutX="5.0" layoutY="480.0" startX="271.0" startY="-279.5" />
+      <Line endX="271.0" endY="-22.0" layoutX="66.0" layoutY="481.0" startX="270.0000305175781" startY="-281.5" />
+      <ImageView fitHeight="200.0" fitWidth="32.0" layoutX="229.0" layoutY="243.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="36.0" layoutX="287.0" layoutY="212.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text3.png" />
+         </image>
+      </ImageView>
+      <Line endX="271.0" endY="-22.0" layoutX="230.0" layoutY="480.0" startX="270.0000305175781" startY="-281.5" />
+      <Line endX="505.0" endY="1.0" layoutX="100.0" layoutY="332.0" startX="401.4000244140625" />
+      <ImageView fitHeight="93.0" fitWidth="137.0" layoutX="350.0" layoutY="260.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="36.0" layoutX="401.0" layoutY="212.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Design.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="211.0" fitWidth="214.0" layoutX="391.0" layoutY="466.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-LV.gif" />
+         </image>
+      </ImageView>
+      <Line endX="271.0" endY="-66.0" layoutX="120.0" layoutY="744.0" startX="270.0000305175781" startY="-281.5" />
+      <ImageView fitHeight="58.0" fitWidth="94.0" layoutX="41.0" layoutY="583.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text5.png" />
+         </image>
+      </ImageView>
+      <Line endX="504.00006103515625" layoutX="102.0" layoutY="678.0" startX="-100.0" />
+      <ImageView fitHeight="68.0" fitWidth="321.0" layoutX="51.0" layoutY="484.0">
+         <image>
+            <Image url="@../../../Images/Bottoms-Images/Bottoms-Text6.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="276.0" layoutY="629.0" mnemonicParsing="false" style="-fx-background-color: #c2ff0e; -fx-border-color: #000000;" text="ADD TO BAG">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="309.0" layoutY="710.0">
+         <image>
+            <Image url="@../../../Images/Logomark-Black.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox layoutX="389.0" layoutY="365.0" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 50;" />
+      <Text layoutX="398.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="307.0" layoutY="577.0" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 50;" />
+      <Text layoutX="316.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="159.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHP 1,600">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHP 1,899">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
