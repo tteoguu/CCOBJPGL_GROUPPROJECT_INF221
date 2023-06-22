@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiptController">
+   <children>
+      <ImageView fitHeight="192.0" fitWidth="415.0" layoutX="11.0" layoutY="505.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Barcode.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="413.0" layoutX="-2.0" layoutY="66.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Brokenline.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2ff0e" height="19.0" layoutX="-9.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="422.0" />
+      <Label layoutX="301.0" layoutY="38.0" prefHeight="15.0" prefWidth="8.0" text="©">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="332.0" layoutX="84.0" layoutY="149.0" startX="-100.0" />
+      <Label layoutX="5.0" layoutY="-13.0" prefHeight="47.0" prefWidth="437.0" text="RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT">
+         <font>
+            <Font name="Arial Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="204.0" prefHeight="16.0" prefWidth="33.0" text="ITEMS">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="202.0" prefHeight="16.0" prefWidth="52.0" text="QUANTITY">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="202.0" prefHeight="16.0" prefWidth="35.0" text="PRICE">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Label>
+      <VBox layoutX="5.0" layoutY="239.0" prefHeight="192.0" prefWidth="400.0">
+         <children>
+            <Pane fx:id="pane1" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name1" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty1" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount1" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name2" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty2" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount2" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name3" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty3" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount3" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane4" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name4" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty4" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount4" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane5" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name5" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty5" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount5" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="95.0" text="label" textAlignment="CENTER" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane6" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name6" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty6" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount6" layoutX="290.0" layoutY="9.0" prefHeight="11.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane7" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name7" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty7" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount7" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pane8" prefHeight="23.0" prefWidth="400.0">
+               <children>
+                  <Label fx:id="name8" layoutX="32.0" layoutY="5.0" prefHeight="12.0" prefWidth="125.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty8" layoutX="190.0" layoutY="5.0" prefHeight="12.0" prefWidth="22.0" text="label" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lineAmount8" layoutX="290.0" layoutY="5.0" prefHeight="15.0" prefWidth="115.0" text="label" textAlignment="RIGHT" visible="false">
+                     <font>
+                        <Font name="Arial" size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Line endX="336.8000183105469" endY="3.0517578125E-5" layoutX="76.0" layoutY="450.0" startX="-100.0" />
+      <Label fx:id="total" layoutX="334.0" layoutY="461.0" prefHeight="29.0" prefWidth="95.0" text="00000">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="335.0" layoutX="79.0" layoutY="498.0" startX="-100.0" />
+      <Label fx:id="myThankYou2" alignment="CENTER" layoutX="13.0" layoutY="505.0" prefHeight="43.0" prefWidth="389.0" text=" A percentage of your purchase will be sent to the charities chosen by the clothing line. " visible="false">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="534.0" prefHeight="29.0" prefWidth="265.0" text="THANK YOU FOR SHOPPING WITH US!" textFill="#ee3698">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2ff0e" height="19.0" layoutX="-6.0" layoutY="621.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="419.0" />
+      <Line endX="371.8000183105469" layoutX="41.0" layoutY="641.0" startX="-41.0" strokeWidth="2.0" />
+      <Line endX="318.0" endY="0.9999984502792358" layoutX="95.0" startX="-104.00001525878906" startY="0.9999984502792358" strokeWidth="3.0" />
+      <Label alignment="CENTER" layoutX="116.0" layoutY="93.0" prefHeight="16.0" prefWidth="180.0" text="FASHION MEETS IMAGINATION ">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Label>
+      <Label fx:id="myThankYou1" layoutX="58.0" layoutY="506.0" text="You have reached the maximum purchase for our donation drive!" visible="false">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="116.0" layoutY="103.0" prefHeight="16.0" prefWidth="175.0" text="WHERE EVERY PURCHASE MAKES">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="124.0" layoutY="113.0" prefHeight="16.0" prefWidth="164.0" text="A DIFFERENCE">
+         <font>
+            <Font name="Arial" size="8.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="659.0" mnemonicParsing="false" onAction="#gotoLogin" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #ffa3d3; -fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: #000000;" text="LOGOUT">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="660.0" mnemonicParsing="false" onAction="#gotoDonationBar" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #ffa3d3; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-radius: 50;" text="DONATION BAR">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="5.0" layoutY="607.0" prefHeight="47.0" prefWidth="437.0" text="RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT RECEIPT">
+         <font>
+            <Font name="Arial Bold Italic" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="186.0" layoutX="111.0" layoutY="46.0">
+         <image>
+            <Image url="@../images/Logo-Black.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="238.0" layoutX="87.0" layoutY="164.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Text.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="19.0" fitWidth="77.0" layoutX="13.0" layoutY="466.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Text2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="413.0" layoutY="378.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Brokenline.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="413.0" layoutX="-2.0" layoutY="568.0">
+         <image>
+            <Image url="@../images/Receipt-Images/Receipt-Brokenline.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
